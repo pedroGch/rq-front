@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .menu-item{
+    @apply h-12 pt-3 pb-3 pl-3 text-white border-b-2 border-solid border-gray-100;
+  }
+
+  .fondo-texto-verde{
+    @apply bg-encabezadoBg bg-clip-text text-transparent font-bold
+  }
+
+  .contenedor-input-caracteristica{
+    @apply  w-[35px] h-[35px] relative flex justify-center items-center p-[2px] rounded-[10px] border-0  z-10
+      
+  }
+
+  .input-caracteriztica{
+    @apply w-[30px] h-[30px] top-[1px] left-[1px] rounded-[9px] block text-center flex justify-center border-0 border-transparent outline-none rounded-[5px] z-0 bg-transparent text-white
+  }
+
+  .gradiente {
+    @apply 
+      bg-gradient-to-bl from-[#EC88C457] via-[#500AE452] to-[#41E1ED57]
+  }
+}
