@@ -12,7 +12,7 @@
 
 
     <main class="container">
-      <section class=" flex justify-center pt-[28px]">
+      <!-- <section class=" flex justify-center pt-[28px]">
         <span class="w-[264px] h-[98px] bg-encabezado bg-no-repeat flex items-center pt-[10px]">
           <h1 class="w-[100%] text-center align-center text-[20px] fondo-texto-verde">
             AKAZA
@@ -31,7 +31,7 @@
           <li class="mb-[5px]">MMR-DES: 12</li>
           <li><button class="rounded-md w-[100%] bg-azul text-white text-center mt-[16px]" type="button">Ver más +</button></li>
         </ul>
-      </section>
+      </section> -->
 
       <section class="mt-[28px]">
         <h2 class="fondo-texto-verde flex justify-center text-[18px]">Características</h2>
@@ -89,12 +89,37 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </button>
-          <ul class="hidden mt-2"  id="accordionContent">
-            <li>Elemento 1</li>
-            <li>Elemento 2</li>
-            <li>Elemento 3</li>
-            <!-- Agrega más elementos si es necesario -->
-          </ul>
+          <div class="hidden mt-2"  id="accordionContent">
+            <div class="flex overflow-x-scroll p-24 w-full scroll-snap-type-x-mandatory scroll-padding-24 border rounded-8 gap-12">
+              <div class="flex-shrink-0 flex-grow-0 w-full scroll-snap-align-center">
+                <div class="descripcion_personaje"> 
+                  <h3>Flynn Scifo</h3>
+                  <h4>Interpretado por: Mamoru Miyano (JP) / Sam Riegel (EN)</h4>
+                  <p>
+                    Un caballero que lucha con espada y escudo. <em>Compartió su infancia con Yuri</em> aunque estuvieron muy contrastados, tanto física como eticamente. Tiene los mismos ideales de ayudar a los demás, pero antepone los intereses del gobierno. <em>Como caballero, viaja regularmente para matar monstruos.</em>
+                  </p>
+                </div>
+              </div>
+              <div class="flex-shrink-0 flex-grow-0 w-full scroll-snap-align-center">
+                <div class="descripcion_personaje"> 
+                  <h3>Flynn Scifo</h3>
+                  <h4>Interpretado por: Mamoru Miyano (JP) / Sam Riegel (EN)</h4>
+                  <p>
+                    Un caballero que lucha con espada y escudo. <em>Compartió su infancia con Yuri</em> aunque estuvieron muy contrastados, tanto física como eticamente. Tiene los mismos ideales de ayudar a los demás, pero antepone los intereses del gobierno. <em>Como caballero, viaja regularmente para matar monstruos.</em>
+                  </p>
+                </div>
+              </div>
+              <div class="flex-shrink-0 flex-grow-0 w-full scroll-snap-align-center">
+                <div class="descripcion_personaje"> 
+                  <h3>Flynn Scifo</h3>
+                  <h4>Interpretado por: Mamoru Miyano (JP) / Sam Riegel (EN)</h4>
+                  <p>
+                    Un caballero que lucha con espada y escudo. <em>Compartió su infancia con Yuri</em> aunque estuvieron muy contrastados, tanto física como eticamente. Tiene los mismos ideales de ayudar a los demás, pero antepone los intereses del gobierno. <em>Como caballero, viaja regularmente para matar monstruos.</em>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
       </section>
@@ -103,7 +128,24 @@
 </template>
 
 <script>
+import VueCarousel from '@chenfengyuan/vue-carousel'
+
 export default {
+  components:{
+    VueCarousel
+  },
+  data() {
+    return {
+      data: [
+      `<div class="example-slide">
+        HOLAA
+        </div>`,
+        `<div class="example-slide">
+        HOLAA
+        </div>`,
+      ],
+    };
+  },
   methods: {
     toggleAccordion(){
       const accordionContent = document.getElementById('accordionContent');
@@ -112,4 +154,5 @@ export default {
   },
 }
 </script>
+
 
