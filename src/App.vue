@@ -17,7 +17,7 @@ import NombrePersonaje from "./components/NombrePersonaje.vue";
 import InfoGeneral from "./components/InfoGeneral.vue";
 import Caracteristicas from "./components/Caracteristicas.vue";
 import Habilidades from "./components/Habilidades.vue";
-import NombrePersonaje from './components/NombrePersonaje.vue';
+
 export default {
   components:{
     NavApp,
