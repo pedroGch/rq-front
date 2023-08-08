@@ -8,7 +8,7 @@
         </svg>
       </button>
       <div class="hidden mt-2"  id="accordionContent">
-        <div class="flex overflow-x-scroll w-full scroll-snap-type-x-mandatory scroll-padding-24 border rounded-8 ">          
+        <div class="flex overflow-x-scroll w-full scroll-snap-type-x-mandatory scroll-padding-24 rounded-8 ">          
             <habilidad-agilidad class="mr-2"></habilidad-agilidad>
           
             <habilidad-comunicacion class="mr-2"></habilidad-comunicacion>
