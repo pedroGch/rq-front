@@ -8,30 +8,18 @@
         </svg>
       </button>
       <div class="hidden mt-2"  id="accordionContent">
-        <div class="flex overflow-x-scroll w-full scroll-snap-type-x-mandatory scroll-padding-24 border rounded-8 gap-12">
-          <div class="flex-shrink-0 flex-grow-0 w-full scroll-snap-align-center">
-            <habilidade-agilidad></habilidade-agilidad>
-          </div>
-
-          <div class="flex-shrink-0 flex-grow-0 w-full scroll-snap-align-center">
-            <habilidad-comunicacion></habilidad-comunicacion>
-          </div>
-
-          <div class="flex-shrink-0 flex-grow-0 w-full scroll-snap-align-center">
-            <habilidad-conocimiento></habilidad-conocimiento>
-          </div>
-
-          <div class="flex-shrink-0 flex-grow-0 w-full scroll-snap-align-center">
-            <habilidad-manipulacion></habilidad-manipulacion>
-          </div>
-
-          <div class="flex-shrink-0 flex-grow-0 w-full scroll-snap-align-center">
-            <habilidad-percepcion></habilidad-percepcion>
-          </div>
-
-          <div class="flex-shrink-0 flex-grow-0 w-full scroll-snap-align-center">
-            <habilidad-sigilo></habilidad-sigilo>
-          </div>
+        <div class="flex overflow-x-scroll w-full scroll-snap-type-x-mandatory scroll-padding-24 border rounded-8 ">          
+            <habilidad-agilidad class="mr-2"></habilidad-agilidad>
+          
+            <habilidad-comunicacion class="mr-2"></habilidad-comunicacion>
+          
+            <habilidad-conocimiento class="mr-2"></habilidad-conocimiento>
+          
+            <habilidad-manipulacion class="mr-2"></habilidad-manipulacion>
+          
+            <habilidad-percepcion class="mr-2"></habilidad-percepcion>
+          
+            <habilidad-sigilo class="mr-2"></habilidad-sigilo>
         </div>
         
       </div>
