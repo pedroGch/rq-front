@@ -1,15 +1,7 @@
 
 <template>
   <div>
-    <!-- <nav-app></nav-app> -->
-    <nav class="w-screen h-[69px] bg-azul drop-shadow-xl flex items-center ">
-      <a href="#" class="w-[32px] h-[32px] ml-[25px] flex items-center">
-        <img src="../public/menu.png" alt="" class="w-[100%]">
-      </a>
-      <div class="flex justify-center w-[100%]">
-        <img src="../public/logo.png" alt="">
-      </div>
-    </nav>
+    <nav-app></nav-app>
     <main class="container">
       <nombre-personaje></nombre-personaje>
       <info-general></info-general>
@@ -22,7 +14,7 @@
 </template>
 
 <script>
-//import NavApp from "./components/NavApp.vue";
+import NavApp from "./components/NavApp.vue";
 import NombrePersonaje from "./components/NombrePersonaje.vue";
 import InfoGeneral from "./components/InfoGeneral.vue";
 import Caracteristicas from "./components/Caracteristicas.vue";
@@ -32,7 +24,7 @@ import Magias from "./components/Magias.vue";
 
 export default {
   components:{
-    //NavApp,
+    NavApp,
     InfoGeneral,
     Caracteristicas,
     Habilidades,
