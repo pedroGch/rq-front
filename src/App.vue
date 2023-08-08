@@ -7,6 +7,8 @@
       <info-general></info-general>
       <caracteristicas></caracteristicas>
       <habilidades></habilidades>
+      <armas></armas>
+      <magias></magias>
     </main>
   </div>
 </template>
@@ -17,6 +19,8 @@ import NombrePersonaje from "./components/NombrePersonaje.vue";
 import InfoGeneral from "./components/InfoGeneral.vue";
 import Caracteristicas from "./components/Caracteristicas.vue";
 import Habilidades from "./components/Habilidades.vue";
+import Armas from "./components/Armas.vue";
+import Magias from "./components/Magias.vue";
 
 export default {
   components:{
@@ -24,7 +28,9 @@ export default {
     InfoGeneral,
     Caracteristicas,
     Habilidades,
-    NombrePersonaje
+    NombrePersonaje,
+    Armas,
+    Magias
   },
   data(){
     return{
