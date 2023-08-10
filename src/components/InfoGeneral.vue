@@ -1,6 +1,6 @@
 <template>
-  <section class="w-[375px] mt-[28px] px-[27px] ">
-    <div class="w-[100%]">
+  <section class="w-[100%] mt-[28px] px-[27px] ">
+    <div class="w-[100%] flex justify-center items-center">
       <img class="" src="/pantalla_inicio_sesion.jpg" alt="">
     </div>
     <div class="mt-[10px] flex justify-center items-center">
