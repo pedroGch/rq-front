@@ -14,7 +14,7 @@ module.exports = {
         'bgVerde':'linear-gradient(180deg, #73F4A7 1.31%, #156A8E 100%)'
       },
       backgroundImage: {
-        'encabezado': "url('./public/encabezado.png')",
+        'encabezado': "url('/encabezado.png')",
         'personajeImg': "url('./public/pantalla_inicio_sesion.jpg')",
         'encabezadoBg' : "linear-gradient(180deg, #73F4A7 1.31%, #156A8E 100%)"
       }
